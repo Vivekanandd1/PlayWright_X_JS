@@ -1,0 +1,23 @@
+{
+  "name": "playwright_x_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vivekanandd1/PlayWright_X_JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vivekanandd1/PlayWright_X_JS/issues"
+  },
+  "homepage": "https://github.com/Vivekanandd1/PlayWright_X_JS#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.0"
+  }
+}
