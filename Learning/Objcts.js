@@ -22,4 +22,9 @@ let obj3 = {"Name":"Vatsal",
     vivek.FlatNo=9;
     console.log("-------------------------")
      console.log(vivek)
+ console.log("-------------------------")
+function namez(){
+   console.log("Vatsal")
+}
 
+namez()

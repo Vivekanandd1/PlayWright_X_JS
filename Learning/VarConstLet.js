@@ -1,18 +1,18 @@
 let names="Vatsal"
-names="Manah"
+names="Manah"  /*let: Cab be reassigned but can't be redecleared*/
 
 console.log(names);
 
 var lnames="Vivek"
-lnames="Damini"
+var lnames="Damini" /*var: Can be reassigned and redecleared*/
 
 console.log(lnames);
 
 const Cnames="Morgan"
-const Cdnames="Freeman"
+const Cdnames="Freeman" /*const cannot be re-declared or re-assigned, but the value it points to can be mutated.*/
 
 console.log(Cnames);
-
+console.log(Cnames);
 var a;
 let b;
 console.log(a);

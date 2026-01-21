@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Vivekanandd1/PlayWright_X_JS#readme",
   "devDependencies": {
     "@playwright/test": "^1.57.0",
-    "@types/node": "^25.0.0"
+    "@types/node": "^25.0.0",
+    "allure-playwright": "^3.4.3",
+    "dotenv": "^17.2.3"
   }
 }
