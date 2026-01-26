@@ -1,7 +1,10 @@
-const{test, expects} = require('playwright/test');
-const {login}  = require('../SApages/SkillLogin');
+const { test, expect } = require('@playwright/test');
+const LoginPage = require('../SApages/LoginPage');
 
 test('Login Test',async({page})=>{
+    ;
     await page.goto('auth/sign-in');
-    // page.
+    const login = new LoginPage(page)
+    await login.Loginflow('ProdCol@yopmail.com','College@123');
+    
 })
