@@ -1,0 +1,113 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "e-commerce-web-application-health-check;user-opened-browser-and-navigate-to-home-page-url-and-validate-the-home-page-url-with-user-given-url",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User opened browser and navigate to home page url and validate the home page url with user given url",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 312012700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigated to home page url",
+            "match": {
+              "location": "steps\\HomepageStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10192338299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User navigated to home page url",
+            "match": {
+              "location": "steps\\HomepageStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 779442900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User should be redirected to \"process.env.Base_URL\" url",
+            "match": {
+              "location": "steps\\HomepageStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3434300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66135700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui",
+            "line": 1
+          },
+          {
+            "name": "@HealthCheck",
+            "line": 1
+          },
+          {
+            "name": "@AutomationPractice",
+            "line": 1
+          },
+          {
+            "name": "@1",
+            "line": 7
+          },
+          {
+            "name": "@UrlValidation",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "e-commerce-web-application-health-check",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "E-commerce Web Application Health Check",
+    "tags": [
+      {
+        "name": "@ui",
+        "line": 1
+      },
+      {
+        "name": "@HealthCheck",
+        "line": 1
+      },
+      {
+        "name": "@AutomationPractice",
+        "line": 1
+      }
+    ],
+    "uri": "feature\\regression.feature"
+  }
+]
